@@ -5,6 +5,7 @@ from . import setup, tools
 from . import constants as c
 from .states import main_menu, load_screen, level
 
+
 def main():
     game = tools.Control()
     state_dict = {c.MAIN_MENU: main_menu.Menu(),
